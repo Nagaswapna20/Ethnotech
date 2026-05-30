@@ -257,7 +257,7 @@ class Icecream extends Foodorder {
 }
 class demo {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.println("------------ Items List ---------");
         System.out.println("1. Biryani");
         System.out.println("2. Idly");
@@ -277,47 +277,47 @@ class demo {
             b.order();
         }
         else if(item_no==2) {
-            Idly i= new Idly("Nani", "Bangalore");
+            Idly i=new Idly("Nani", "Bangalore");
             i.display();
             i.order();
         }
         else if(item_no==3) {
-            Chapathi c= new Chapathi("Nandhu", "Tamil Nadu");
+            Chapathi c=new Chapathi("Nandhu", "Tamil Nadu");
             c.display();
             c.order();
         }
         else if(item_no==4) {
-            Puri p= new Puri("Nithya", "Kerala");
+            Puri p=new Puri("Nithya", "Kerala");
             p.display();
             p.order();
         }
         else if(item_no == 5) {
-            Maggie m= new Maggie("Ram", "Hyderabad");
+            Maggie m=new Maggie("Ram", "Hyderabad");
             m.display();
             m.order();
         }
         else if(item_no==6) {
-            Eggrice e= new Eggrice("Kiran", "Chennai");
+            Eggrice e=new Eggrice("Kiran", "Chennai");
             e.display();
             e.order();
         }
         else if(item_no==7) {
-            Paneer p= new Paneer("Divya", "Delhi");
+            Paneer p=new Paneer("Divya", "Delhi");
             p.display();
             p.order();
         }
         else if(item_no==8) {
-            Burger b= new Burger("Sita", "Mumbai");
+            Burger b=new Burger("Sita", "Mumbai");
             b.display();
             b.order();
         }
         else if(item_no==9) {
-            Palav p = new Palav("Ravi", "Pune");
+            Palav p=new Palav("Ravi", "Pune");
             p.display();
             p.order();
         }
         else if(item_no==0) {
-            Icecream i= new Icecream("Anu", "Goa");
+            Icecream i=new Icecream("Anu", "Goa");
             i.display();
             i.order();
         }
